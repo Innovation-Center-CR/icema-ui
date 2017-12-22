@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "modular-scale",
+        "scope": null,
+        "escapedName": "modular-scale",
+        "name": "modular-scale",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/bbohling/Projects/ITReuse/reuse-ui"
+    ]
+  ],
+  "_from": "modular-scale@latest",
+  "_id": "modular-scale@4.4.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/modular-scale",
+  "_nodeVersion": "4.1.2",
+  "_npmUser": {
+    "name": "dam",
+    "email": "kristoferjoseph@gmail.com"
+  },
+  "_npmVersion": "2.14.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "modular-scale",
+    "scope": null,
+    "escapedName": "modular-scale",
+    "name": "modular-scale",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/",
+    "/it-mlaf-sass"
+  ],
+  "_resolved": "https://registry.npmjs.org/modular-scale/-/modular-scale-4.4.1.tgz",
+  "_shasum": "9dc07cb170ab9b536838bc7750e63fc6cc3724e0",
+  "_shrinkwrap": null,
+  "_spec": "modular-scale",
+  "_where": "/Users/bbohling/Projects/ITReuse/reuse-ui",
+  "author": {
+    "name": "@dam"
+  },
+  "bugs": {
+    "url": "https://github.com/kristoferjoseph/modular-scale/issues"
+  },
+  "dependencies": {},
+  "description": "Module for generating a modular scale.",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^1.21.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9dc07cb170ab9b536838bc7750e63fc6cc3724e0",
+    "tarball": "https://registry.npmjs.org/modular-scale/-/modular-scale-4.4.1.tgz"
+  },
+  "gitHead": "a2632dc7bf0968e19dc3beb2b5eb2af6d9706c33",
+  "homepage": "https://github.com/kristoferjoseph/modular-scale",
+  "keywords": [
+    "modular",
+    "scale",
+    "typography",
+    "design",
+    "css"
+  ],
+  "license": "BSD",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "dam",
+      "email": "kristoferjoseph@gmail.com"
+    }
+  ],
+  "name": "modular-scale",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristoferjoseph/modular-scale.git"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "version": "4.4.1"
+}
