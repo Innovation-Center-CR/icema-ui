@@ -12,6 +12,7 @@ User interface project for the Innovation Center Invetory app using Angular 4.
 
 ## <a name="setup"></a> Development server
 
+First you need to run `npm install` !!
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## <a name="code"></a> Code scaffolding
