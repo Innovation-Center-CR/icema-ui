@@ -1,0 +1,9 @@
+applications:
+- name: icema-ui
+  routes:
+  - route: icema-ui-fm.apps1-fm-int.icloud.intel.com
+  memory: 128M
+  disk_quota: 128M
+  buildpack: staticfile_buildpack
+  path: dist
+  instances: 1
