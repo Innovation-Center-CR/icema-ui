@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+/* IT Master Look and Feel (it-mlaf-sass) */
+$intel-font-path: "assets/it-mlaf-sass/fonts/";
+$icon-font-path: "assets/it-mlaf-sass/bootstrap-sass/assets/fonts/bootstrap/";
+
+
+$grid-float-breakpoint:870px; // not working; had to hard-code line 336 in assets/it-mlaf-sass/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+$footer-height: 35px;
+
+@import "assets/it-mlaf-sass/scss/intel-variables";
+@import "styles-variables";
+
+.loading {
+    display: block;
+    margin-top: 2em;
+    margin-left: 2em;
+    color: $light-gray;
+}
+html {
+    font-family: $font-family-sans-serif !important;
+    position: relative;
+    height: auto;
+    min-height: 100%;
+}
+
+body {
+    position: static;
+    height: auto;
+    margin: 0 0 100px; /* bottom = footer height */
+    background-color: $lighter-gray2;
+}
+h2 {
+    font-size: $h2-font-size;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $lighter-gray;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: $h3-font-size;
+    font-weight: 600;
+}
+h4 {
+    font-size: $h4-font-size;
+    font-weight: 600;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #939598;
+    color: white;
+    padding: 15px 15px;
+    font-size: 100%;
+}
+a {
+    &:hover {
+        cursor: pointer;
+    }
+}
+.container {
+    margin-top: 20px;
+}
+a.noLink {
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        text-decoration: none;
+    }
+}

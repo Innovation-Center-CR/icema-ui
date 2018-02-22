@@ -19,9 +19,13 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "assets/it-mlaf-sass/it-mlaf.scss",
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/it-mlaf-sass/jquery-3.1.1.min.js",
+        "assets/it-mlaf-sass/bootstrap-sass/assets/javascripts/bootstrap.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
