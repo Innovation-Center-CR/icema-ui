@@ -7,11 +7,10 @@ import { environment } from '../environments/environment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'app works!';
 
   public env = environment.environmentName;
-  public uiBuild: number = 1.0;
-  public apiBuild: number = 1.0;
+  public uiBuild: string = "0.1.1";
+  public apiBuild: string = "0.1.1";
 
   constructor() { }
 
