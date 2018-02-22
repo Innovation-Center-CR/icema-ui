@@ -1,0 +1,24 @@
+@import "../../assets/it-mlaf-sass/scss/intel-variables";
+
+.search-container {
+    .search-control {
+        background-color: $lighter-gray;
+        border: none;
+    }
+
+    .search-control-input {
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .btn-lg {
+        height: 48px;
+    }
+
+    .top-bottom-buffer {
+        margin-top: 1.0em;
+        margin-bottom: 1.0em;
+    }
+}

@@ -1,0 +1,29 @@
+<section class="search-container">
+  <h2>Search</h2>
+
+  <div class="row">
+      <div class="col-md-12">
+          <div class="input-group search-control-input">
+              <input class="form-control input-lg" placeholder="Search for..." [(ngModel)]="searchQuery" (ngModelChange)="searchQueryChange($event)" type="text" (keypress)="keypressFn($event)"
+              />
+              <span class="input-group-btn">
+                  <button class="btn btn-primary btn-lg" type="button" (click)="searchFn(searchQuery)"><i class="intelicon-search"></i></button>
+              </span>
+              <span class="input-group-btn">
+                
+              </span>
+              <span class="input-group-btn">
+                <button class="btn btn-primary btn-lg" type="button"><i class="intelicon-camera"></i></button>
+            </span>
+          </div>
+      </div>
+  </div>
+
+  <div class="row" *ngIf="true">
+      <div class="col-md-12">
+          <h2>Results for {{searchQuery}}</h2>
+      </div>
+  </div>
+
+</section>
+<!-- <app-intc-spinner></app-intc-spinner> -->
