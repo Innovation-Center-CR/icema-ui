@@ -19,12 +19,12 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "assets/it-mlaf-sass/it-mlaf.scss",
+        "C:/Users/emenarui/Desktop/Inventory App/icema-ui/node_modules/bootstrap/scss/bootstrap.scss",
         "styles.scss"
       ],
       "scripts": [
-        "assets/it-mlaf-sass/jquery-3.1.1.min.js",
-        "assets/it-mlaf-sass/bootstrap-sass/assets/javascripts/bootstrap.min.js"
+        "C:/Users/emenarui/Desktop/Inventory App/icema-ui/node_modules/jquery/dist/jquery.min.js",
+        "C:/Users/emenarui/Desktop/Inventory App/icema-ui/node_modules/bootstrap/dist/js/bootstrap.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

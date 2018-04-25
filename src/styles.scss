@@ -1,23 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
-/* IT Master Look and Feel (it-mlaf-sass) */
-$intel-font-path: "assets/it-mlaf-sass/fonts/";
-$icon-font-path: "assets/it-mlaf-sass/bootstrap-sass/assets/fonts/bootstrap/";
-
-
-$grid-float-breakpoint:870px; // not working; had to hard-code line 336 in assets/it-mlaf-sass/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+$grid-float-breakpoint:870px;
 $footer-height: 35px;
 
-@import "assets/it-mlaf-sass/scss/intel-variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "styles-variables";
 
 .loading {
     display: block;
     margin-top: 2em;
     margin-left: 2em;
-    color: $light-gray;
+    color: #D3D3D3;
 }
 html {
-    font-family: $font-family-sans-serif !important;
+    font-family: sans-serif !important;
     position: relative;
     height: auto;
     min-height: 100%;
@@ -27,13 +21,13 @@ body {
     position: static;
     height: auto;
     margin: 0 0 100px; /* bottom = footer height */
-    background-color: $lighter-gray2;
+    background-color: #778899;
 }
 h2 {
     font-size: $h2-font-size;
     font-weight: 600;
     padding-bottom: 10px;
-    border-bottom: 1px solid $lighter-gray;
+    border-bottom: 1px solid #778899;
     margin-bottom: 10px;
 }
 h3 {
